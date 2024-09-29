@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FB580FB12CA9EB4300F35CC4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FB580FB02CA9EB4300F35CC4 /* SDWebImageSwiftUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FB580F9D2CA9D76100F35CC4 /* URLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB580FB12CA9EB4300F35CC4 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = URLSession;
 			packageProductDependencies = (
+				FB580FB02CA9EB4300F35CC4 /* SDWebImageSwiftUI */,
 			);
 			productName = URLSession;
 			productReference = FB580F9D2CA9D76100F35CC4 /* URLSession.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = FB580F942CA9D76100F35CC4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FB580FAF2CA9EB4300F35CC4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FB580F9E2CA9D76100F35CC4 /* Products */;
 			projectDirPath = "";
@@ -322,6 +331,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB580FAF2CA9EB4300F35CC4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB580FB02CA9EB4300F35CC4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB580FAF2CA9EB4300F35CC4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB580F952CA9D76100F35CC4 /* Project object */;
 }
